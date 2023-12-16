@@ -43,3 +43,7 @@ func Request(req string) (string, string) {
 
 	return "", ""
 }
+
+func Parse(text string) ([]string, string) {
+	return []string{"foo", "bar"}, text
+}
